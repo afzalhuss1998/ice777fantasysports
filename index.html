@@ -1,191 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fantasy Sports - Get Your ID</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skill Based Sports Platform</title>
 
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #2E7D32, #4CAF50);
-            min-height: 100vh;
-            color: white;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    text-align: center;
+}
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
 
-        .header {
-            text-align: center;
-            padding: 60px 20px;
-        }
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
-        .title {
-            font-size: 3.5rem;
-            font-weight: bold;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
 
-        .tagline {
-            font-size: 1.3rem;
-            margin-bottom: 40px;
-            opacity: 0.9;
-            line-height: 1.6;
-        }
+.subheading {
+    font-size: 18px;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
 
-        .cta-button {
-            display: inline-block;
-            padding: 18px 45px;
-            font-size: 1.2rem;
-            font-weight: bold;
-            text-decoration: none;
-            color: white;
-            background: linear-gradient(45deg, #f44336, #d32f2f);
-            border-radius: 50px;
-            box-shadow: 0 8px 25px rgba(244, 67, 54, 0.3);
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-            margin-bottom: 60px;
-        }
+.box {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
 
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 35px rgba(244, 67, 54, 0.4);
-        }
+.features {
+    text-align: left;
+    display: inline-block;
+}
 
-        .play-icon {
-            display: inline-block;
-            margin-right: 10px;
-        }
+.features li {
+    margin: 10px 0;
+}
 
-        .info-sections {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            margin-bottom: 60px;
-        }
+.button {
+    background: #2563eb;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
 
-        .info-box {
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 15px;
-            padding: 30px;
-            backdrop-filter: blur(10px);
-        }
+.button:hover {
+    background: #1d4ed8;
+}
 
-        .info-title {
-            font-size: 1.8rem;
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: #4CAF50;
-        }
+.footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #94a3b8;
+}
+</style>
 
-        .info-content {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            opacity: 0.9;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 40px 20px;
-            border-top: 1px solid rgba(255,255,255,0.1);
-        }
-
-        .copyright {
-            margin-bottom: 15px;
-            opacity: 0.8;
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .footer-links a {
-            color: white;
-            text-decoration: none;
-            opacity: 0.8;
-            transition: opacity 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            opacity: 1;
-        }
-
-        @media (max-width: 768px) {
-            .title {
-                font-size: 2.5rem;
-            }
-            
-            .tagline {
-                font-size: 1.1rem;
-            }
-            
-            .cta-button {
-                padding: 15px 35px;
-                font-size: 1.1rem;
-            }
-            
-            .info-box {
-                padding: 20px;
-            }
-        }
-    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1 class="title">Fantasy Sports</h1>
-            <p class="tagline">Build Your Team • Compete With Friends • Enjoy Sports</p>
-            <a href="https://wa.me/+447770775390?text=Hello%20I%20want%20to%20learn%20more%20about%20skill%20base%20game" 
-               class="cta-button" 
-               target="_blank">
-                <span class="play-icon">▶</span>
-                Learn More
-            </a>
-        </div>
 
-        <div class="info-sections">
-            <div class="info-box">
-                <h2 class="info-title">About</h2>
-                <p class="info-content">
-                    Welcome to Fantasy Sports, your ultimate platform for creating and managing virtual sports teams. 
-                    Compete with friends, join leagues, and experience the thrill of sports management. 
-                    Build your dream team, track player performance, and win exciting prizes!
-                </p>
-            </div>
+<div class="container">
 
-            <div class="info-box">
-                <h2 class="info-title">Disclaimer</h2>
-                <p class="info-content">
-                    Fantasy Sports is intended for entertainment purposes only. Participants must be of legal age 
-                    and comply with local regulations regarding online gaming. Please play responsibly and within 
-                    your means. This platform does not promote gambling and encourages fair competition.
-                </p>
-            </div>
-        </div>
+<div class="logo">
+SPORTS SKILL HUB
+</div>
 
-        <div class="footer">
-            <p class="copyright"> 2026 Fantasy Sports</p>
-            <div class="footer-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Contact Support</a>
-            </div>
-        </div>
-    </div>
+<div class="heading">
+Online Skill Based Sports Platform
+</div>
+
+<div class="subheading">
+Enjoy strategy-based sports challenges designed for entertainment and skill improvement.
+</div>
+
+<div class="box">
+<p>
+Welcome to our online skill-based sports platform.
+This platform is designed purely for entertainment and strategic skill development.
+
+Users can create virtual teams, analyze player performance, and participate in strategy-based sports challenges.
+
+This is an entertainment-focused digital sports experience.
+</p>
+</div>
+
+<div class="box">
+<h3>Platform Features</h3>
+
+<ul class="features">
+<li>✔ Strategy-Based Team Creation</li>
+<li>✔ Sports Knowledge Challenges</li>
+<li>✔ Performance Analytics Tools</li>
+<li>✔ Smooth User Experience</li>
+<li>✔ Secure Platform Access</li>
+</ul>
+
+</div>
+
+<a href="https://wa.me/+447543166201" class="button">
+Join Community
+</a>
+
+<div class="footer">
+This platform is intended for users interested in skill-based digital sports experiences.
+Participation is subject to platform terms and local laws.
+</div>
+
+</div>
+
 </body>
 </html>
